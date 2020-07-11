@@ -53,8 +53,6 @@ figure{
     text-decoration: none;
     text-transform: uppercase;
     padding:0 1em;
-    
-  
     transition: all .2s linear;
 }
 
@@ -328,4 +326,98 @@ figure{
 .feature-description{
     color: #5d7280;
     margin: 0;
+}
+
+#requirements{
+    /* background: #000f23; */
+   
+    background: url('../img/requisitos-background.jpg');
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-size: cover;
+    position: relative;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 125px 0px 0px 0px;
+}
+
+
+.requirements-elements{
+    display:flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 2;
+}
+
+.requirements-imageContainer,
+.requirements-details{
+    width:50%;
+}
+
+.requirements-imageContainer{
+    text-align: center;
+}
+.requirements-imageContainer img{
+    height: auto;
+    max-width: 100%;
+    vertical-align: bottom;
+}
+
+.requirements-image{
+    width:450px;
+}
+
+.requirements-details{
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin: 0px 0px 0px 40px;
+    padding: 50px 50px 50px 50px;
+    border-radius: 20px 20px 0px 0px;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+.requirements-details .section-title{
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+
+.requirements-text,
+.requirements-subtitle{
+    color: #000f23;
+    font-size: 2.3333333333333rem;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 800;
+    line-height: 1;
+}
+
+.requirements-subtitle{
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom:1em;
+}
+
+.requirements-text{
+    margin-bottom:1em;
+}
+
+#footer{
+    display:flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    padding:1em 0;
+    padding-top: 2.66666em;
+    padding-bottom: 2.66666em;
+}
+
+#footer .menu ul li a{
+    color: #000f23
+}
+
+.copy{
+    margin:0;
 }
