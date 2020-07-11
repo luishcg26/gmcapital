@@ -63,3 +63,8 @@ figure{
 .menu ul li a:hover{
     color: #f98416;
 }
+
+
+#process-online{
+    background-color: rgba(93,114,128,0.05);
+}
