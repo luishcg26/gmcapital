@@ -55,7 +55,8 @@ figure{
     padding:0 1em;
     transition: all .2s linear;
 }
-
+#footer .menu ul li a:active,
+#footer .menu ul li a:hover,
 .menu ul li a.active,
 .menu ul li a:hover{
     color: #f98416;
