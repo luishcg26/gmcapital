@@ -33,7 +33,7 @@ a{
 
 .container{
     max-width: 1200px; 
-    width: 90%;  
+    width: 95%;  
     margin:0 auto;
     display:inherit;
     flex:inherit;
@@ -516,6 +516,7 @@ a{
 
 .we-wrapper{
     display:flex;
+    align-items: flex-end;
 }
 
 .we-description{
@@ -568,6 +569,8 @@ a{
 
 .we-image{
     width: 350px;
+    height: auto;
+    max-width: 100%;
 }
 
 #mision-vision{
@@ -626,7 +629,7 @@ a{
 .credit:nth-child(even){
     box-shadow: 0px 0px 50px -10px rgba(0,15,35,0.1);
     transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-    padding: 100px 0px 100px 0px;
+    /* padding: 100px 0px 100px 0px; */
 }
 
 .credit-details{
@@ -694,7 +697,7 @@ a{
     justify-content: space-between;
     z-index: 2;
     position: relative;
-    max-width: 1000px;
+    max-width: 80%;
     margin:0 auto;
 }
 
@@ -769,6 +772,38 @@ a{
     .icon{
         font-size: 55px;
     }
+
+    .page-title{
+        padding: 100px 0px 25px 0px;
+    }
+
+    .we-wrapper {
+        flex-direction: column;
+        text-align: center;
+        align-items: initial;
+    }
+
+    .we-description {
+        padding: 0px;
+        width: auto;
+    }
+
+    .we-imageContainer {
+        width: auto;
+    }
+
+    .doc-options{
+        max-width: 95%;
+    }
+
+    .page-section{
+        padding: 55px 0px;
+    }
+
+    .feature {
+        margin: 20px 0;
+        width: 31.3%;
+    }
 }
 
 @media screen and (max-width:768px){
@@ -828,7 +863,7 @@ a{
 
 
     .menu ul li a {
-        padding: 0 1em;
+        padding: 0 0.7em;
         font-size: 13.68px;
     }
 
@@ -877,6 +912,9 @@ a{
 
     .features-list {
         flex-direction: column;
+        margin-top: 50px;
+        margin-bottom: 0px;
+        padding: 0px 0px 0px 0px;
     }
 
     .feature{
@@ -923,7 +961,89 @@ a{
         margin-top: 1em;
     }
 
+    .page-section {
+        padding: 55px 35px 35px 35px;
+    }
+
+    .page-title{
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .we-title,
+    .doc-title,
+    .credit-title{
+        padding: 0px 0px 15px 0px;
+    }
+
+    .we-imageContainer{
+        margin: 0px;
+        padding: 0px 30px 0px 30px;
+    }
+
+    .mision-vision-descriptions{
+        display: initial;
+    }
+
+    .mv {
+        width: auto;
+        margin:0px;
+    }
+
+    .mv:last-child {
+        margin-top:30px;
+    }
+
+    .credit-type {
+        display: block;
+        justify-content: initial;
+        align-items: initial;
+        text-align: center;
+    }
+
+    .credit-details {
+        width: auto;
+        padding: 0;
+        margin-top:50px;
+    }
+
+    .credit-imageContainer {
+        margin: 0px 0px 30px;
+        width: auto;
+    }
+
+    #documentacion{
+        text-align: center;
+    }
+
+    #documentacion .doc-options{
+        display: block;
+        width: 100%;
+    }
     
+    #documentacion .main-link{
+        margin: 40px 0px 0px 0px;
+    }
+
+    .contact-info {
+        display: block;
+        text-align: center;
+        margin-top:50px;
+    }
+
+    .contact-description {
+        margin:0;
+    }
+
+    .contact-image{
+        margin-bottom: 17px;
+    }
+
+    .contact-iconContainer{
+        width: 1em;
+        height: 1em;
+        margin:0 auto;
+    }
 }
 
 @media screen and (max-width:480px){
@@ -970,6 +1090,26 @@ a{
         justify-content: center;
         flex-wrap: wrap;
     }
+
+    .page-section{
+        padding: 50px 25px 50px 25px;
+    }
+
+    .page-title{
+        font-size: 40px;
+    }
+
+
+    .we-title,
+    .doc-title,
+    .credit-title{
+        font-size: 25px;
+    }
+
+    .credit-image {
+        width: 200px;
+    }
+
 }
 
 @media screen and (max-width:320px){
